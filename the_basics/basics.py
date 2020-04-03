@@ -1,9 +1,3 @@
-x = 10 # integer
-y = "10" # string 
-z = 12.1 # float
+print(list(range(1,10))) # just need to specify list boundaries for it to display a list
 
-sum1 = x + x
-sum2 = y + y
-
-print(sum1,sum2)
-print(type(x),type(y),type(z)) # type function allows us to see the type of variable declared.
+print(list(range(1,10, 2))) # this generates a list by counting every 2 items starting from 1 and ending at 9.
