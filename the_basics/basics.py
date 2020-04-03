@@ -1,9 +1,9 @@
-import datetime
-mynow = datetime.datetime.now() # creating variables 
-print(mynow)
+x = 10 # integer
+y = "10" # string 
+z = 12.1 # float
 
-mynumber = 10
-mytext = "Hello"
+sum1 = x + x
+sum2 = y + y
 
-print(mynumber, mytext)
-
+print(sum1,sum2)
+print(type(x),type(y),type(z)) # type function allows us to see the type of variable declared.
