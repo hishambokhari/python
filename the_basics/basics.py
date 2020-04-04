@@ -40,14 +40,66 @@
 
 # conditionals - if else statements
 
-def mean(n):
-                                                           # the_mean = sum(n)/len(n)
-  if type(n) == dict:
-    the_mean = sum(n.values())/len(n)
-  else:
-      the_mean = sum(n)/len(n)
-  return the_mean
+# def mean(n):
+#                                                            # the_mean = sum(n)/len(n)
+#   if type(n) == dict:
+#     the_mean = sum(n.values())/len(n)
+#   else:
+#       the_mean = sum(n)/len(n)
+#   return the_mean
 
-student_grades = { "mary":9.1,"sim":8.8,"john":7.5}
-monday_temperatures = [8.8,9.1,9.9]
-print(mean(monday_temperatures))
+# student_grades = { "mary":9.1,"sim":8.8,"john":7.5}
+# monday_temperatures = [8.8,9.1,9.9]
+# print(mean(monday_temperatures))
+
+# x = -10
+# if x * 2 > x:
+#   print("Greater")
+# else:
+#   print("Less or Equal")
+
+# def foo(x, array):
+#   if x in array:
+#     return True
+#   else:
+#     return False
+
+# print(foo(1,[1,2,3])) # true
+# print(foo(1,[2,3])) # false
+# print(foo(1,['1',2,3]))  # false  
+
+# def mean(n):
+#   if isinstance(n, dict):
+#     the_mean = sum(n.values)/len(n)
+#   else:
+#     the_mean = sum(n)/len(n)
+
+#   return the_mean
+
+# better to use isinstance instead of type(n) == dict:
+
+# def foo(n):
+#   if len(n) >= 8:
+#     return True
+#   else:
+#     return False
+
+# def temp(n):
+#   if n > 7:
+#     return "Warm"
+#   else:
+#     return "Cold"  
+   
+   # Elif
+
+# def hish(x, y):
+#   if x > y:
+#     return("x is greater than y")
+#   elif x == y:
+#     return("x is equal to y")
+#   else:
+#     return("x is less than y") 
+
+# print(hish(3,3))    
+
+
