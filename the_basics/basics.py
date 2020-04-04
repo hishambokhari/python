@@ -103,3 +103,15 @@
 # print(hish(3,3))    
 
 
+# User input
+# user_input = input("Enter your name: ")
+# message = "Hello %s!" % user_input -- This is how to formart a string (single variables)
+# print(message)
+
+# Multiple inputs
+# name = input("Enter your name: ")
+# surname = input("Enter your surname: ")
+
+# message = "Hello %s %s" % (name, surname)
+# print(message)
+
