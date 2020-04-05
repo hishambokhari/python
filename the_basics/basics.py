@@ -146,4 +146,40 @@
 #     print(items)
 
 
-    
+# looping through a dictionary
+
+# student_grades = {"marry":9.1,"sim":8.8,"john":7.5}
+
+# for grades in student_grades.items(): # returns the entire item. key and values
+# for grades in student_grades.keys(): # returns the keys only.
+# for grades in student_grades.values(): returns the values only
+  # print(grades)
+
+# phone_numbers = {"john": "+37682929928", "Marry simpons": "+37682929928"}
+# for key, value in phone_numbers.items():
+#   print("{} has a number of {}".format(key, value))
+
+# phone_numbers = {"john": "+37682929928", "Marry simpons": "+37682929928"} # replacing '+' with 00
+
+# for value in phone_numbers.values():
+#   print(value.replace("+", "00"))
+
+# While loops
+
+# username = 'hisham'
+
+# while username != "pypy": # while loops end when the condition is false
+#   username = input("Enter username: ")
+
+# a = 0
+# while a < 5:
+#   a = a + 1
+#   print(a)
+
+
+# while True:
+#   username = input("Enter username: ")
+#   if username == "pypy":
+#     break
+#   else:
+#     continue  
