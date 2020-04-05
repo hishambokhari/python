@@ -127,3 +127,23 @@
 # print(foo("hisham"))  
 
 
+# For loops
+
+# monday_temperatures = [9.1,8.8,7.6]
+
+# for temp in monday_temperatures:
+#   print(round(temp)) # round() method is used to round of the numbers. Temp is a variable that can be named anything
+
+# colors = [11,34,98,43,45,54,54]
+
+# for items in colors:
+#   if items > 50:
+#     print(items)
+
+# colors = [11,34.1,98.2,43,45.1,54,54] # checking for items to be an int and > 50 using the int() and the 'and' operator.
+# for items in colors:
+#   if items == int(items) and items > 50:
+#     print(items)
+
+
+    
