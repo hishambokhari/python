@@ -46,3 +46,38 @@
 
 
 # print(foo(['1.2', '2.6', '3.3']))  
+
+# def foo(a, b):
+#   return a + b
+
+# print(foo(3, 4))  
+
+
+# Using *args
+
+# def mean(*args): returns a list of strings and integers using args
+#   return args
+
+# print(mean(1, 3, 4, 'so'))  
+
+# def foo(*args):
+#   return sum(args)/len(args)
+
+# print(foo(10, 20, 30, 40))  
+
+# def foo(*args):                                for non key word arguments
+#   args = [item.upper() for item in args]
+#   return sorted(args)
+
+# print(foo('hello','andy','rocky'))  
+
+# For keyword arguments
+# def mean(**kwargs):
+#   return kwargs
+
+# print(mean(a=1, b=2, c=3))  
+# def find_sum(**kwargs):
+#   return sum(kwargs.values())
+
+# print(find_sum(x = 3, y = 3, z = 3))  
+
