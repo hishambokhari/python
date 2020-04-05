@@ -115,3 +115,15 @@
 # message = "Hello %s %s" % (name, surname)
 # print(message)
 
+# def foo(name):
+#   return "Hi %s" % name
+
+# print(foo("Hisham"))  
+
+# def foo(name):
+#   return "Hi %s" % name.capitalize()
+
+
+# print(foo("hisham"))  
+
+
