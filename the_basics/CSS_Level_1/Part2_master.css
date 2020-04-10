@@ -1,0 +1,19 @@
+body{
+  background-color: gray;
+}
+
+div{
+  background-color: rgb(10, 113, 148);
+  border-width: thick;
+  border-style: double;
+  border-color: black;
+}
+
+p{
+  color: yellow;
+}
+
+span{
+  background: orchid;
+  color: black;
+}
