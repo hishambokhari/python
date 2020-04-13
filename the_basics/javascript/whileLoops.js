@@ -3,6 +3,7 @@
 // while (x < 5){
 //   console.log("x is currently: "+x);
 
+
 //   if (x===3) {
 //     console.log("X is equal to 3");
 //     break;
@@ -42,4 +43,23 @@
 // for (var i = 0; i <word.length; i+=2){
 //   console.log(word[i]);
 // }
+
+// var word = "hello";
+// while (word < 6){
+//   console.log(word);
+ 
+// }
+
+// var age = 5;
+
+// while (age < 10) {
+//   console.log("Your age is less than 10");
+//   age++;
+
+// }
+
+// console.log("Now over 10")
+
+
+
 
