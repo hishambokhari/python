@@ -19,14 +19,69 @@
 
 # slicing
 
-mystring = 'hello man how are you'
+# mystring = 'hello man how are you'
 
-# print(mystring[:3]) #upto but not including
+# # print(mystring[:3]) #upto but not including
 
-# print (mystring[1:4]) # from 1 to 4
+# # print (mystring[1:4]) # from 1 to 4
 
-# x = mystring.split(' ')
+# # x = mystring.split(' ')
+# # print(x)
+
+# x = "Insert another string: {} Item two: {}".format(mystring, 'dog')
 # print(x)
 
-x = "Insert another string: {} Item two: {}".format(mystring, 'dog')
-print(x)
+
+#lists - pythons form of arrays
+
+myList = [1,50,3,4]
+
+# myList[1] = 2 # replacing in lists
+
+# print(myList)
+# print(myList[1]) # indexing
+
+# print(len(myList)) #lngth of a list
+
+
+# append
+
+# Adds to the end of the list
+# myList.append("New item") 
+
+
+# myList.extend("8,9,10") # extends to the list
+# print(myList)
+
+
+
+# myList.pop() # removes last item from list
+# print(myList)
+
+
+# myList.reverse() # reverses the list
+# print(myList)
+
+
+
+
+# myList.sort() # sorts the list the list
+# print(myList)
+
+
+# matrix
+
+matrix = [[1,2,3],[4,5,6],[7,8,9]]
+
+first_col = [row[0] for row in matrix] # grabs first element in every list
+
+
+print(first_col)
+
+
+
+
+
+
+
+
