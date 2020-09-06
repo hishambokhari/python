@@ -226,11 +226,33 @@ s = 'django'
 
 # print(result)
 
-def addNum(num1,num2):
-  if type(num1)==type(num2)==type(10):
-    return num1+num2
-  else:
-    return "Sorry I need integers"  
+# def addNum(num1,num2):
+#   if type(num1)==type(num2)==type(10):
+#     return num1+num2
+#   else:
+#     return "Sorry I need integers"  
 
-result = addNum(2,3)  
-print(result)
+# result = addNum(2,3)  
+# print(result)
+
+#lambda expression
+
+#filter
+
+# mylist = [1,2,3,4,5,6]
+
+# def even_bool(num):
+#   return num%2 == 0
+
+#lambda function
+
+
+
+# result = filter(lambda num:num%2 == 0, mylist)
+
+# print(list(result))
+
+tweet = "Go sports! #sports"
+x = tweet.split('#')[1]
+
+print(x)
