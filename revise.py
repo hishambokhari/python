@@ -34,7 +34,7 @@
 
 #lists - pythons form of arrays
 
-myList = [1,50,3,4]
+# myList = [1,50,3,4]
 
 # myList[1] = 2 # replacing in lists
 
@@ -71,17 +71,24 @@ myList = [1,50,3,4]
 
 # matrix
 
-matrix = [[1,2,3],[4,5,6],[7,8,9]]
+# matrix = [[1,2,3],[4,5,6],[7,8,9]]
 
-first_col = [row[0] for row in matrix] # grabs first element in every list
-
-
-print(first_col)
+# first_col = [row[0] for row in matrix] # grabs first element in every list
 
 
+# print(first_col)
 
 
 
+# Dictionaires
 
+my_stuff = {"key1":"value","key2":"value2","key3":{'123':[1,2,'grabme']}}
+
+print(my_stuff["key3"]['123'][2])
+
+my_food = {'lunch':'pizza','bfast':'eggs'}
+my_food['lunch'] = 'burger'
+my_food['dinner'] = 'pasta' # adding to the list
+print(my_food)
 
 
