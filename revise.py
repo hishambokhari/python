@@ -153,3 +153,64 @@ s = 'django'
 # convert = set(mylist)
 
 # print(convert)
+
+# control flow
+
+# if else statements
+
+# if 1<2:
+#   if 2<3:
+#     print("True!") nested statements
+
+# if 10<2: if else statements
+#   print("hello")
+# else:
+#   print("bye!")
+
+# if elif and elsif statements
+
+# if 20<3:
+#   print("2 is smaller")
+# elif 3 == 3:
+#   print("elif statement")
+# else:
+#   print("else statement")    
+
+# for loops
+
+# seq = [1,2,3,4,5,6]
+
+# for i in seq:
+#   if i < 4:
+#     print(i)
+
+# d = {"sam":1,"frank":2,"Dan":3}
+
+# for i in d:
+#   print(i)
+#   print(d[i])
+
+#itterating through a tuple
+
+# mypairs = [(1,2),(3,4),(5,6)]
+
+# for (tup1,tup2) in mypairs:
+#   print(tup1)
+#   print(tup2)
+
+# i = 1
+
+# while i<5:
+#   print("i is: {}".format(i))
+#   i = i + 1
+
+x = [1,2,3,4]
+
+out = []
+
+for i in x:
+  out.append(i**2)
+
+print(out)  
+  
+
