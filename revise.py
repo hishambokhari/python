@@ -82,13 +82,74 @@
 
 # Dictionaires
 
-my_stuff = {"key1":"value","key2":"value2","key3":{'123':[1,2,'grabme']}}
+# my_stuff = {"key1":"value","key2":"value2","key3":{'123':[1,2,'grabme']}}
 
-print(my_stuff["key3"]['123'][2])
+# print(my_stuff["key3"]['123'][2])
 
-my_food = {'lunch':'pizza','bfast':'eggs'}
-my_food['lunch'] = 'burger'
-my_food['dinner'] = 'pasta' # adding to the list
-print(my_food)
+# my_food = {'lunch':'pizza','bfast':'eggs'}
+# my_food['lunch'] = 'burger'
+# my_food['dinner'] = 'pasta' # adding to the list
+# print(my_food)
 
 
+# Tuples sets and booleans
+
+#tuples are like lists but are immutable
+
+# t = (1,2,3)
+
+# print(t[0])
+
+
+# t = ('a',True,3)
+
+# print(t)
+
+
+#sets - only takes in unique elements
+
+# x = set()
+
+# x.add(1)
+# x.add(4)
+# x.add(4)
+# x.add(0.1)
+
+
+# print(x)
+
+# converted = set([1,2,3,3,3,3,3,3])
+# print(converted)
+
+s = 'django'
+
+# print(s[0])
+# print(s[-1])
+# print(s[:4])
+# print(s[1:4])
+# print(s[4:])
+
+# l = [3,7,[1,4,'hello']]
+
+# l[2][2] = 'goodbye'
+
+# print(l)
+
+# d1 = {'simple_key':'hello'}
+
+# print(d1['simple_key'])
+
+# d2 = {'k1':{'k2':'hello'}}
+
+# print(d2['k1']['k2'])
+
+
+# d3 = {'k1':[{'nest_key':['this is deep',['hello']]}]}
+
+# print(d3['k1'][0]['nest_key'][1][0])
+
+# mylist = [1,1,1,1,2,2,2,2,3,3,3,3,3]
+
+# convert = set(mylist)
+
+# print(convert)
