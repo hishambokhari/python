@@ -204,13 +204,25 @@ s = 'django'
 #   print("i is: {}".format(i))
 #   i = i + 1
 
-x = [1,2,3,4]
+# x = [1,2,3,4]
 
-out = []
+# out = [i**2 for i in x]
+# print(out)
 
-for i in x:
-  out.append(i**2)
 
-print(out)  
+# for i in x:
+#   out.append(i**2)
+
+# print(out)  
   
+  
+#functions
+
+# def my_function():
+#   return "hello"
+
+
+# result = my_function()
+
+# print(result)
 
